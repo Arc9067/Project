@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+
+.nav_bar{
+    height: 60px;
+    width: 100%;
+    background-color: #f741c8;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_nav{
+    height: 60px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.logo{
+    height: 70px;
+    width: 30%;
+    /* background-color: yellow; */
+    text-align: center;
+    /* line-height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo1{
+    font-family: 'Segoe Ui';
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.l{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.inner_nav1{
+    height: 70px;
+    width: 40%;
+    /* background-color:green; */
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    height: 70px;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: white;
+    font-weight: lighter;
+}
+
+/* header ending */
+
+.Section_1{
+    height: 500px;
+    width: 100%;
+    background-color:#f9f9f9;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.element{
+    height: 200px;
+    width: 25%;
+    background-color:green;
+
+}
